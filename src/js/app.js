@@ -1,5 +1,5 @@
 // TODO: write your code here
-import Character from './basic';
+import Character from './Character';
 
 console.log('worked');
 

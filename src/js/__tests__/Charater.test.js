@@ -12,6 +12,19 @@ test('should create new Magician Character', () => {
     defence: 40,
   });
 });
+//
+// test.each([
+//   ['Merlin', 'Magician', {
+//     name: 'Merlin',
+//     type: 'Magician',
+//     level: 1,
+//     health: 100,
+//     attack: 10,
+//     defence: 40,
+//   }],
+// ])('.createCharacter(%s, %s)', (a, b, expected) => {
+//   Character(a, b).toEqual(expected);
+// });
 
 test('should show error, invalid name', () => {
   function result() {

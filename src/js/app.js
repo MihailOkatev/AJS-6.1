@@ -3,6 +3,6 @@ import Character from './Character';
 
 console.log('worked');
 
-const merlin = new Character('Мерлин', 'Magician');
+const merlin = new Character('Oberon', 'Undead');
 
 console.log(merlin);
